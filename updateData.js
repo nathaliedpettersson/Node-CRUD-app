@@ -74,3 +74,7 @@ async function updateDetails(current, info) {
 }
 
 queryDB(updateData);
+
+// Get data in db.json
+// Ask for an id in the prompt and if the id matches one in the db.json file, it will bring it up and ask you to type in the new information for that "user"
+// It will then update the new data with the writeFile that will overwrite the database with the new value

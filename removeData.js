@@ -35,3 +35,6 @@ export default async function removeData(info) {
 }
 
 queryDB(removeData);
+
+// Search for all "users" and ask in a prompt for the id you want to delete 
+// If the id matches an id in your database array, delete that "user"

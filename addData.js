@@ -63,3 +63,14 @@ async function createDetails(info) {
 }
 
 queryDB(addData);
+
+// answers variable will store the data coming in
+// Prompt is a method that asks for inputs in the CLI
+// Each object must have the name, type and message keys
+// Choices is optional
+// We call the uuidv4() to get a unique id each time we're adding data 
+
+// createDetails overwrites the database with current data using writeFile. It will create the data if it doesn't exist 
+
+// Note that at the end of the file we call the queryDB function and pass in the addData
+

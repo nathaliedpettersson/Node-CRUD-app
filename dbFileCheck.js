@@ -7,3 +7,5 @@ export default function dbFileCheck() {
         exit(1);
     }
 } 
+
+// Checks if there is an existing db.json file and returns a boolean

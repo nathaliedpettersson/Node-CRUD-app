@@ -30,3 +30,7 @@ export default async function queryDB(externalFunction) {
     }
 }
 
+// Check if db.json file exists, read it and save the data in a variable and parse it
+
+
+
